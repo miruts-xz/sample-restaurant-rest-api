@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"github.com/betsegawlemma/restaurant-rest/entity"
-	"github.com/betsegawlemma/restaurant-rest/order"
 	"github.com/jinzhu/gorm"
+	"github.com/miruts/sample-restaurant-rest-api/entity"
+	"github.com/miruts/sample-restaurant-rest-api/order"
 )
 
 // OrderGormRepo implements the menu.OrderRepository interface

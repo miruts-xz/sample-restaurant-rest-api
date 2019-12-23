@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"github.com/betsegawlemma/restaurant-rest/entity"
-	"github.com/betsegawlemma/restaurant-rest/menu"
 	"github.com/jinzhu/gorm"
+	"github.com/miruts/sample-restaurant-rest-api/entity"
+	"github.com/miruts/sample-restaurant-rest-api/menu"
 )
 
 // ItemGormRepo implements the menu.ItemRepository interface

@@ -3,12 +3,11 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/julienschmidt/httprouter"
+	"github.com/miruts/sample-restaurant-rest-api/comment"
+	"github.com/miruts/sample-restaurant-rest-api/entity"
 	"net/http"
 	"strconv"
-
-	"github.com/betsegawlemma/restaurant-rest/comment"
-	"github.com/betsegawlemma/restaurant-rest/entity"
-	"github.com/julienschmidt/httprouter"
 )
 
 // AdminCommentHandler handles comment related http requests
