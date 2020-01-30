@@ -2,7 +2,7 @@ package repository
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/miruts/sample-restaurant-rest-api/entity"
+	"github.com/miruts/food-api/entity"
 )
 
 // CategoryGormRepo implements the menu.CategoryRepository interface

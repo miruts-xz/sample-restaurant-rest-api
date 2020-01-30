@@ -1,7 +1,7 @@
 package order
 
 import (
-	"github.com/miruts/sample-restaurant-rest-api/entity"
+	"github.com/miruts/food-api/entity"
 )
 
 // OrderRepository specifies customer menu order related database operations

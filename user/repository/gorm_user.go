@@ -2,8 +2,8 @@ package repository
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/miruts/sample-restaurant-rest-api/entity"
-	"github.com/miruts/sample-restaurant-rest-api/user"
+	"github.com/miruts/food-api/entity"
+	"github.com/miruts/food-api/user"
 )
 
 // UserGormRepo Implements the menu.UserRepository interface

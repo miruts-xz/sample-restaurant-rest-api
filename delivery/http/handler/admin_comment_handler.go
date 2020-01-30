@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/julienschmidt/httprouter"
-	"github.com/miruts/sample-restaurant-rest-api/comment"
-	"github.com/miruts/sample-restaurant-rest-api/entity"
+	"github.com/miruts/food-api/comment"
+	"github.com/miruts/food-api/entity"
 	"net/http"
 	"strconv"
 )

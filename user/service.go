@@ -1,6 +1,6 @@
 package user
 
-import "github.com/miruts/sample-restaurant-rest-api/entity"
+import "github.com/miruts/food-api/entity"
 
 // UserService specifies application user related services
 type UserService interface {

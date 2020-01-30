@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/miruts/sample-restaurant-rest-api/entity"
-	"github.com/miruts/sample-restaurant-rest-api/user"
+	"github.com/miruts/food-api/entity"
+	"github.com/miruts/food-api/user"
 )
 
 // UserService implements menu.UserService interface

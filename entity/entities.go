@@ -13,8 +13,8 @@ type Category struct {
 
 // Role repesents application user roles
 type Role struct {
-	ID   uint
-	Name string `gorm:"type:varchar(255)"`
+	ID   uint   `gorm:"unique;not null"`
+	Name string `gorm:"type:varchar(255);unique;not null"`
 }
 
 // Item represents food menu items
@@ -47,13 +47,13 @@ type Order struct {
 // User represents application user
 type User struct {
 	ID       uint
-	UserName string `gorm:"type:varchar(255);not null"`
-	FullName string `gorm:"type:varchar(255);not null"`
-	Email    string `gorm:"type:varchar(255);not null; unique"`
-	Phone    string `gorm:"type:varchar(100);not null; unique"`
-	Password string `gorm:"type:varchar(255)"`
-	Roles    []Role `gorm:"many2many:user_roles"`
-	Orders   []Order
+	UserName string  `gorm:"type:varchar(255);not null"`
+	FullName string  `gorm:"type:varchar(255);not null"`
+	Email    string  `gorm:"type:varchar(255);not null; unique"`
+	Phone    string  `gorm:"type:varchar(100);not null; unique"`
+	Password string  `gorm:"type:varchar(255)"`
+	Roles    []Role  `gorm:"many2many:user_roles"`
+	Orders   []Order `gorm:"many2many:user_orders'"`
 }
 
 // Comment represents comments forwarded by application users

@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 	"errors"
-	"github.com/miruts/sample-restaurant-rest-api/entity"
+	"github.com/miruts/food-api/entity"
 )
 
 // RoleRepositoryImpl implements RoleRepository interface
